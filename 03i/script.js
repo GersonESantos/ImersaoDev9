@@ -8,5 +8,7 @@ function isColor(data)
 };
  return result[data] || "não é uma cor";
 
- console.log(isColor("red"));
 };
+ console.log(isColor("red"));
+    console.log(isColor("blue"));
+    console.log(isColor("green"));
